@@ -9,7 +9,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="test">lalala</div>
+    <div class="container">
+        <div class="row jumbotron">
+            <div class="col-sm-12">
+                <h1>Ticketmaster API Demo</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col">
+                <form>
+                    Select City: <input id="city-input" type="text" name="city" placeholder="Philadelphia">
+                    <!-- Select Date: <input type="text" name="date" placeholder="MM/DD/YYYY"> -->
+                    <input id="submit-button" type="submit" value="Submit" class="btn btn-warning">
+                </form>
+            </div>
+
+        </div>
+        <div id="bike-area" class="row">
+            <div class="col-sm-12"></div>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
