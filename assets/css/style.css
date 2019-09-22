@@ -11,9 +11,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#bike-area {
+#brewery-area {
     display: none;
-}
-.on {
-    display: block
+    display: flex;
+    flex-flow: row wrap;
 }
